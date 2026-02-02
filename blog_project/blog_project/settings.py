@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-myj&aeb=pe_*%#7@r11_^y0)f$5=rk5pi!g8de$qmp!=uy5y(l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -144,5 +144,6 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 5
 }
+
 
 CORS_ALLOW_ALL_ORIGINS = True
